@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Jump to Bottom</title>
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+
+            .top-link {
+                display: block;
+                margin: 20px;
+                text-align: center;
+                font-size: 18px;
+                text-decoration: none;
+                color: white;
+                background-color: #007BFF;
+                padding: 10px 15px;
+                border-radius: 5px;
+                width: 200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .top-link:hover {
+                background-color: #0056b3;
+            }
+
+            .content {
+                height: 1500px; /* Simulate a long page */
+                padding: 20px;
+                text-align: center;
+            }
+
+            .bottom {
+                text-align: center;
+                padding: 20px;
+                background-color: #f4f4f9;
+                border-top: 2px solid #ddd;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Link at the top -->
+        <a href="#bottom" class="top-link">Jump to Bottom</a>
+
+        <!-- Simulated content -->
+        <div class="content">
+            <p>Scroll down to see more content...</p>
+        </div>
+
+        <!-- Target at the bottom -->
+        <div id="bottom" class="bottom">
+            <p>You have reached the bottom of the page!</p>
+        </div>
+    </body>
+</html>
