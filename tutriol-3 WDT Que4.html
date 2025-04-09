@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Table Layout</title>
+  <style>
+    table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;    
+    }
+
+    th, td {
+        border: 2px solid black;
+        padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table cellpadding="20" cellspacing="0">
+    <tr>
+      <td colspan="3">Top</td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2">Way Left</td>
+      <td>Middle Up</td>
+      <td rowspan="2">Way Right</td>
+    </tr>
+    
+    <tr>
+      <td>Middle Down</td>
+    </tr>
+
+    <tr>
+      <td colspan="3">Bottom</td>
+    </tr>
+  </table>
+</body>
+</html>
